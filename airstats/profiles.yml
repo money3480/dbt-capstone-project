@@ -1,0 +1,29 @@
+airstats:
+  outputs:
+    dev:
+      type: snowflake
+      account: xlwupak-sd11770
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFNTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQIEA4R7qfucTRpMQx\nGtxIwQICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEIYJZruTku5XpYsS\nWQjuAYcEggTQmpZoLoyAbXveFGsG7wo9xY10l9g/FV7bHcBe7KFVYhKdnMxEjcn6\n7lzQ4AkvkaS6rAGLmJMX/dNi+Bci6FkvjT+LqnBItcWZNhVB442p7sl1zIgFIXN0\n+fpQEtF0NaS5CC699Ts0BLnrvBJDPOFGulxk5hKzTCPWsziXjwYNThYEzRHbW05a\nlZVBr3WgKrMnYIhGuw6DR2u471wG6PRxT38eYI/reLrNBNIr2eP52sALXSTzZSPI\nhjBkc8i730BGTtZKxebWKHinHdDzY0Eycq+HA+SeJ+iy8ZFNK9qbYaN34HNPNe9G\n6smJ5Jwr0KV66ipEZLORxT+WVXSqwrIAbV4cv/uHZ9G2L+B4XE2yf3zuCYuufzJm\n02l2ZhcKeCrlRSGyFrL0DE/Y6K5Ie82dOzX4NDFQanr8fnsrsZVlreKIHv+e+Pe+\nK4GUTYP/lIxE/kc6ukmiELvkTBmfl+BOfDJWOnz/oike4ciG+88h1wfeJV9fsHbD\nfKx7J7ioXLkZeH/lj0t1OXHGuegGYM+UdqSe05AtoN3W1/lqerwu/lP0ew8PiMSA\n7nnrofvsphnI/j2HBUEY0aIlfKN4vqkWruZofDjGupF4PVZv5qmPshJVMoJlrWYG\nOBuW6MCfM7fDJ6Ha98gIv6QcXMvdoAXDuYXTjPlLdNmpmuiKcnmfF4egN4u3nFJS\n1qAYRept6t6P9eeJAYqK8Hkj3z+gHPriPiVo81caNNePJxjYY4EqZsYuYdV0JK/V\niPLUPq+t+0Q6oftCU1hZdIGh/1EsQ4cR/4hwEzY7YQdeLJGypgJd+fx63B1mvrzV\n5fKrVD+/mZ1QXU2Um//GieWv5i+V9L/P9d3TzZe0VvPW+Jr7t/FAov1Wo0JFyUhd\nVMe+R9a/yp417bNh7bYeCPduRrf0VZBy/Cd44DrrXVrG+gQWD5cvU8BvNtAktAHM\ngfWlvlOeBrd38QIdc5raKO0ZRlqaunfnpF30nQQ6l8oGyxk8GscJabne7Irzzz7N\nt3frq2+90gjaqk2INMoinqTVC9f//IbUo+RwS1q6mRIHgiFlitPT3ZvbDzYiFZac\nj1OmHltrMmJotsJcEa3RK8tla6fQ6wPWa6gM700Wkyk7GuNwExWeY5aTIxxDgyDE\n1fIS5VuKgqNN4/8zQKPYlh0fhRUhH3PesNmX0yaHm6Y/fHcpqF77CgAYHtN+BcJn\n+RGfQf1xxKjz3IB0IZDuCm/C6vhw1k7sr5ftHojram+c5PeER91fdSaOjHHOji+U\nYHI02+0jwZW/d3fCPjn7Q83V4WBE/kqyjH+QlaNYVa/kpHSIkVu1HtJHpO7JgRg1\nVXngUserPbQyb0OaY5GnUALbaIhudY7YYhKwEui47A2aCnAiz3yBOnyLW+FH/Kvz\nUa6j/25fDLszDsuWKn4lfh0ovMP8JtVH9z7wZp8OrIeBX28yTYcfJ6tgpsO5OlWr\nSauhLHDKWYTpRjM844Ql2SdEjUlxc8Adn0JorP8pV+D0AJo07RdSA93DG+xJnhyp\neQAt6jeV0JROjgiavYE5n9ZnoZ/FOtEOQ70j08oAXHraNJHZCQ7tF8TtEMXUaEsz\nknXap7w0qFMhAIfmlL2EU2vCJRUFUevMUqhaeUfeqR85kBQ7IyD2fl4=\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: q
+
+      database: AIRSTATS
+      schema: DEV
+      threads: 1
+      warehouse: COMPUTE_WH
+    prod:
+      type: snowflake
+      account: xlwupak-sd11770
+      user: dbt
+
+      role: TRANSFORM
+      private_key: "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFNTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQIEA4R7qfucTRpMQx\nGtxIwQICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEIYJZruTku5XpYsS\nWQjuAYcEggTQmpZoLoyAbXveFGsG7wo9xY10l9g/FV7bHcBe7KFVYhKdnMxEjcn6\n7lzQ4AkvkaS6rAGLmJMX/dNi+Bci6FkvjT+LqnBItcWZNhVB442p7sl1zIgFIXN0\n+fpQEtF0NaS5CC699Ts0BLnrvBJDPOFGulxk5hKzTCPWsziXjwYNThYEzRHbW05a\nlZVBr3WgKrMnYIhGuw6DR2u471wG6PRxT38eYI/reLrNBNIr2eP52sALXSTzZSPI\nhjBkc8i730BGTtZKxebWKHinHdDzY0Eycq+HA+SeJ+iy8ZFNK9qbYaN34HNPNe9G\n6smJ5Jwr0KV66ipEZLORxT+WVXSqwrIAbV4cv/uHZ9G2L+B4XE2yf3zuCYuufzJm\n02l2ZhcKeCrlRSGyFrL0DE/Y6K5Ie82dOzX4NDFQanr8fnsrsZVlreKIHv+e+Pe+\nK4GUTYP/lIxE/kc6ukmiELvkTBmfl+BOfDJWOnz/oike4ciG+88h1wfeJV9fsHbD\nfKx7J7ioXLkZeH/lj0t1OXHGuegGYM+UdqSe05AtoN3W1/lqerwu/lP0ew8PiMSA\n7nnrofvsphnI/j2HBUEY0aIlfKN4vqkWruZofDjGupF4PVZv5qmPshJVMoJlrWYG\nOBuW6MCfM7fDJ6Ha98gIv6QcXMvdoAXDuYXTjPlLdNmpmuiKcnmfF4egN4u3nFJS\n1qAYRept6t6P9eeJAYqK8Hkj3z+gHPriPiVo81caNNePJxjYY4EqZsYuYdV0JK/V\niPLUPq+t+0Q6oftCU1hZdIGh/1EsQ4cR/4hwEzY7YQdeLJGypgJd+fx63B1mvrzV\n5fKrVD+/mZ1QXU2Um//GieWv5i+V9L/P9d3TzZe0VvPW+Jr7t/FAov1Wo0JFyUhd\nVMe+R9a/yp417bNh7bYeCPduRrf0VZBy/Cd44DrrXVrG+gQWD5cvU8BvNtAktAHM\ngfWlvlOeBrd38QIdc5raKO0ZRlqaunfnpF30nQQ6l8oGyxk8GscJabne7Irzzz7N\nt3frq2+90gjaqk2INMoinqTVC9f//IbUo+RwS1q6mRIHgiFlitPT3ZvbDzYiFZac\nj1OmHltrMmJotsJcEa3RK8tla6fQ6wPWa6gM700Wkyk7GuNwExWeY5aTIxxDgyDE\n1fIS5VuKgqNN4/8zQKPYlh0fhRUhH3PesNmX0yaHm6Y/fHcpqF77CgAYHtN+BcJn\n+RGfQf1xxKjz3IB0IZDuCm/C6vhw1k7sr5ftHojram+c5PeER91fdSaOjHHOji+U\nYHI02+0jwZW/d3fCPjn7Q83V4WBE/kqyjH+QlaNYVa/kpHSIkVu1HtJHpO7JgRg1\nVXngUserPbQyb0OaY5GnUALbaIhudY7YYhKwEui47A2aCnAiz3yBOnyLW+FH/Kvz\nUa6j/25fDLszDsuWKn4lfh0ovMP8JtVH9z7wZp8OrIeBX28yTYcfJ6tgpsO5OlWr\nSauhLHDKWYTpRjM844Ql2SdEjUlxc8Adn0JorP8pV+D0AJo07RdSA93DG+xJnhyp\neQAt6jeV0JROjgiavYE5n9ZnoZ/FOtEOQ70j08oAXHraNJHZCQ7tF8TtEMXUaEsz\nknXap7w0qFMhAIfmlL2EU2vCJRUFUevMUqhaeUfeqR85kBQ7IyD2fl4=\n-----END ENCRYPTED PRIVATE KEY-----\n"
+      private_key_passphrase: q
+
+      database: AIRSTATS
+      schema: PROD
+      threads: 4
+      warehouse: COMPUTE_WH
+  target: dev

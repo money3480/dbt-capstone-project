@@ -1,0 +1,27 @@
+sources:
+  - name: airstats
+    database: AIRSTATS
+    schema: raw
+    tables:
+      - name: airports
+        identifier: airports
+        columns:
+          - name: id
+          - name: ident
+          - name: type
+          - name: name
+          - name: iso_country
+      - name: comments
+        identifier: airport_comments
+        columns: 
+          - name: id
+          - name: airport_ref
+          - name: airport_ident
+          - name: date
+      - name: runways
+        identifier: runways
+        columns:
+          - name: id
+          - name: airport_ref
+          - name: airport_ident
+          - name: closed
